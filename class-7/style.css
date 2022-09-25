@@ -1,0 +1,146 @@
+.bx1{
+    color: lime;
+    padding: 50px;
+    margin: 20px;
+    /* background: black; */
+    /* background-color: black; */
+    border: 10px double red;
+    text-align: center;
+    height: 600px;
+
+    background-image: url(banner.jpg);
+    /* background-repeat: repeat; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: right;
+    background-size: cover;
+
+    /* background-attachment: fixed; */
+    background-attachment: scroll;
+
+
+
+    /* background: url(banner.jpg); */
+
+    /* border-style: solid;
+    border-color: red;
+    border-width: 10px; */
+
+    /* border: 10px solid red; */
+
+    /* border-top: 10px solid #000;
+    border-bottom: 10px dotted red;
+    border-left: 10px dashed gray;
+    border-right: 10px solid deeppink; */
+}
+.bx2{
+    color: green;
+    padding: 50px;
+    margin: 20px;
+
+    border: 10px dotted red;
+}
+.bx3{
+    color: green;
+    padding: 50px;
+    margin: 20px;
+
+    border: 10px dashed red;
+}
+.bx4{
+    color: green;
+    padding: 50px;
+    margin: 20px;
+
+    border: 10px double red;
+}
+.bx5{
+    color: green;
+    padding: 50px;
+    margin: 20px;
+
+    border: 10px groove red;
+}
+.bx6{
+    color: green;
+    padding: 50px;
+    margin: 20px;
+
+    /* border: 100px inset red; */
+    border: 100px outset red;
+    /* border: none; */
+}
+.bx7{}
+.bx8{}
+.bx9{}
+.bx10{}
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+.box{
+    background: black;
+    color: white;
+    margin: 100px;
+    padding: 100px;
+}
+.box1{
+    background: black;
+    color: lime;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+.box2{
+    background: black;
+    color: red;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.box3{
+    background: black;
+    color: white;
+}
+.box4{
+    background: black;
+    color: deeppink;
+
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 200px;
+    margin-right: 100px;
+
+    padding-top: 100px;
+    padding-bottom: 110px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.box5{
+    background: black;
+    color: lightskyblue;
+
+    margin: 120px 110px 100px 100px ;
+
+    padding: 100px 100px 100px 100px;
+}
+.box6{
+    background: black;
+    color: white;
+
+    margin: 100px 400px;
+    padding: 100px 200px;
+}
+.box7{}
+.box8{}
+.box9{}
+.box10{}
