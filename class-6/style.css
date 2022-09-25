@@ -1,0 +1,71 @@
+.hed1 {
+    background: brown;
+    color: aqua;
+}
+
+.hed2 {
+    background: brown;
+    color: lime;
+}
+
+.hed3 {
+    background: brown;
+    color: lime;
+}
+
+#hed1 {
+    background: brown;
+    color: aqua;
+}
+
+#hed2 {
+    background: brown;
+    color: lime;
+}
+
+#hed3 {
+    background: brown;
+    color: lime;
+}
+
+.head1 {
+    background: crimson;
+    color: blue;
+    text-align: center;
+}
+
+.head2 {
+    background: crimson;
+    color: blue;
+    text-align: right;
+}
+
+.head3 {
+    background: crimson;
+    color: lime;
+    text-align: left;
+}
+
+#head1 {
+    background: black;
+    color: white;
+    text-align: left;
+}
+
+#head2 {
+    background: black;
+    color: deepskyblue;
+    text-align: center;
+}
+
+#head3 {
+    background: navy;
+    color: lime;
+    text-align: right;
+}
+
+#head4{
+    background: indigo;
+    color: deeppink;
+    text-align: justify;
+}
