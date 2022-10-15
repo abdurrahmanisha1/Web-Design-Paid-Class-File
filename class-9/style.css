@@ -1,0 +1,153 @@
+.text-shadow {
+    background: black;
+    color: aliceblue;
+    padding: 20px;
+    border: 10px solid red;
+}
+
+.text-shadow h1 {
+    text-transform: uppercase;
+    color: lime;
+    border-left: 5px solid lime;
+    padding: 10px;
+    font-size: 60px;
+}
+
+.text-shadow .shadow-1 {
+    color: red;
+    font-size: 40px;
+    text-shadow: 3px 5px 2px gray;
+}
+
+.text-shadow .shadow-2 {
+    color: red;
+    font-size: 40px;
+    text-shadow: 3px 5px 10px lime;
+}
+
+.text-shadow .shadow-3 {
+    color: lime;
+    font-size: 40px;
+    text-shadow: 3px 5px 2px gray;
+}
+
+.text-shadow .shadow-4 {
+    color: purple;
+    font-size: 40px;
+    text-shadow: 3px 5px 5px gray;
+}
+
+.text-shadow .shadow-5 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 5px 2px lime;
+}
+
+
+/* font family  */
+
+.font-family {
+    border: 10px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.font-family h1 {
+    text-transform: uppercase;
+    color: lime;
+    border-left: 5px solid lime;
+    padding: 10px;
+    font-size: 60px;
+}
+
+.font-family #f-family-1 {
+    font-style: normal;
+    font-size: 40px;
+    font-family: serif;
+    font-style: italic;
+}
+
+.font-family #f-family-2 {
+    font-style: normal;
+    font-size: 40px;
+    color: red;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.font-family #f-family-3 {
+    /* font-style: normal; */
+    font-size: 40px;
+    color: lime;
+    font-family: monospace;
+}
+
+.font-family #f-family-3 i {
+    font-style: normal;
+}
+
+.font-family #f-family-4 {
+    font-style: normal;
+    font-size: 40px;
+    color: red;
+    font-family: cursive;
+}
+
+.font-family #f-family-5 {
+    font-style: normal;
+    font-size: 40px;
+    color: navy;
+    font-family: fantasy;
+}
+
+/* ///////////////// */
+
+
+.width {
+    background: navy;
+    color: aliceblue;
+    border: 20px solid black;
+    padding: 20px;
+}
+
+.width p {
+    font-size: 30px;
+    text-align: justify;
+    /* font-weight: 600; */
+    /* font-weight: 900; */
+    /* font-weight: bold; */
+    font-weight: bolder;
+}
+
+.button {
+    border: 5px solid lime;
+    margin: 40px;
+    padding: 40px;
+    width: 10%;
+}
+
+.button button {
+    /* padding: 10px 50px; */
+    width: 100%;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background: black;
+    color: lime;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.button button:hover {
+    color: red;
+    background: navy;
+    transition: 1s;
+}
+
+.button button:active {
+    color: white;
+    background-color: darkmagenta;
+    transition: 1s;
+}
