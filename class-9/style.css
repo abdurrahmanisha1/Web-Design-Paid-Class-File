@@ -1,0 +1,86 @@
+#box {
+    background: black;
+    color: lime;
+    margin: 50px;
+    padding: 50px;
+    border: 10px solid red;
+    border-radius: 100px;
+}
+
+#box h1 {
+    color: red;
+    text-decoration: underline;
+    text-decoration: line-through;
+}
+
+#box h2 {
+    color: red;
+    text-decoration: overline;
+}
+
+#box h3 {
+    color: red;
+    text-decoration: line-through;
+}
+
+/* ------------ box 1 ------------ */
+#box1 {
+    background: black;
+    color: red;
+    margin: 50px;
+    padding: 50px;
+    border: 10px solid red;
+    border-radius: 100px;
+}
+
+#box1 h1 {
+    color: lime;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+}
+
+#box1 h2 {
+    color: deeppink;
+    text-transform: capitalize;
+}
+
+#box1 h3 {}
+
+/* ------------ box 2 ------------ */
+#box2 {
+    background: black;
+    color: deeppink;
+    margin: 50px;
+    padding: 50px;
+    border: 10px solid red;
+    border-radius: 100px;
+}
+
+#box2 h1 {
+    color: lime;
+    text-transform: uppercase;
+}
+
+#box2 h2 {
+    color: lime;
+    text-transform: lowercase;
+}
+
+#box2 h3 {
+    color: lime;
+    text-transform: capitalize;
+}
+
+#box2 p {
+    border: 2px solid lime;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 30px;
+    /* white-space: pre; */
+    /* white-space: nowrap; */
+    white-space: normal;
+}
