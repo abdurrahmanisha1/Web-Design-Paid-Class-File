@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(black, red, black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    background: black;
+    color: white;
+    width: 950px;
+    padding: 40px;
+}
+.table:hover {
+    background: red;
+}
+.table:active {
+    background: lime;
+}
+
+.table h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: lime;
+}
+
+.table:hover h1 {
+    color: black;
+}
+
+.table:active h1 {
+    color: white;
+}
+
+.table table {
+    border: 1px solid gray;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.table table thead {}
+
+.table table thead tr {}
+
+.table table thead tr th {
+    border: 1px solid gray;
+    padding: 20px;
+    background: navy;
+}
+
+.table table tbody {}
+
+.table table tbody tr:nth-child(even) {
+    background: rgb(71, 0, 36);
+}
+
+.table table tbody tr {
+    background: black;
+}
+
+.table table tbody tr td {
+    border: 1px solid gray;
+    padding: 10px 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.table table tbody tr td:nth-child(odd) {
+    background: rgb(92, 92, 0);
+}
+
+.table table tbody tr td:nth-child(odd):hover {
+    background: lime;
+}
+
+.table table tbody tr td:nth-child(odd):active {
+    background: red;
+}
+
+.table table tbody tr td:hover {
+    background: white;
+    color: black;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+.table table tbody tr td:active {
+    background: lime;
+    color: black;
+    transition: 0.5s;
+}
