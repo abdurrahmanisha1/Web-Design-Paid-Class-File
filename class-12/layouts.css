@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    background: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#layout {
+    height: 600px;
+    width: 900px;
+    border: 2px solid white;
+}
+
+#layout #row-1 {
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid lime; */
+    background: orange;
+    color: black;
+}
+
+#layout #row-2 {
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid lime; */
+    display: flex;
+}
+
+#layout #row-3 {
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid lime; */
+    background: orange;
+    color: black;
+}
+
+#layout #row-2 #column-1 {
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid white; */
+    background: lime;
+    color: black;
+}
+
+#layout #row-2 #column-2 {
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid white; */
+}
+
+#layout #row-2 #column-3 {
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid white; */
+    background: lime;
+    color: black;
+}
+
+#layout #row-2 #column-2 #ro-1 {
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid lime; */
+    background: yellow;
+    color: black;
+}
+
+#layout #row-2 #column-2 #ro-2 {
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid lime; */
+    display: flex;
+}
+
+#layout #row-2 #column-2 #ro-3 {
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid lime; */
+    background: yellow;
+    color: black;
+}
+
+#layout #row-2 #column-2 #ro-2 #colum-1 {
+    height: 100%;
+    width: 25%;
+    /* border: 2px solid white; */
+    background: purple;
+}
+
+#layout #row-2 #column-2 #ro-2 #colum-2 {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid white; */
+}
+
+#layout #row-2 #column-2 #ro-2 #colum-3 {
+    height: 100%;
+    width: 25%;
+    /* border: 2px solid white; */
+    background: purple;
+}
